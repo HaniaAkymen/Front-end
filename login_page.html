@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+      
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(233, 172, 182);
+        
+      }
+      .left,
+      .right {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+      }
+
+      .right {
+        left: 50%;
+        top: 0;
+      }
+
+      .left {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      figure {
+        height: 100%;
+        line-height: 0;
+      }
+      h1 {
+        padding-top: 30%;
+        padding-bottom: 30px;
+        color: brown;
+      }
+
+      h4 {
+        color: brown
+      }
+      button {
+        text-align: center;
+        border-radius: 30px;
+        padding: 10px 40px;
+        border: 2px solid white;
+        color: brown;
+        margin-top: 20px;
+
+      }
+
+      input {
+        
+        text-align: center;
+        border-radius: 30px;
+        padding: 10px 40px;
+        color:white;
+        border: 2px solid white;
+        color: brown;
+      }
+      h4 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="left">
+      <h1>Welcome back</h1>
+      
+
+      <form action="">
+        <h4>Email</h4>
+        <input type="text" placeholder="Enter your email" />
+        
+        <h4>Password</h4>
+        <input type="password" placeholder="Enter your password" />
+        
+        <p>      
+          <button> Sign ln </button>
+        </p>
+      </form>
+    </div>
+
+    <div class="right">
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3RvcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60"
+          alt=""
+        />
+      </figure>
+    </div>
+  </body>
+</html>
