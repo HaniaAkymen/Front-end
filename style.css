@@ -1,0 +1,58 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima&family=PT+Serif:ital,wght@0,700;1,700&family=Roboto&family=Roboto+Condensed:wght@300&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        position: absolute;
+        text-align: center;
+        font-size: 120px;
+        font-weight: 700;
+        width: 700px;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        top: 10px;
+        color: rgb(252, 103, 4);     
+      }
+
+      html,
+      body,
+      .flex-container {
+        height: 100%;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 3%;
+      }
+      .box,
+      .box-2 {
+        width: 400px;
+        aspect-ratio: 0.7;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      figure {
+        height: 100%;
+        width: 100%;
+        line-height: 0;
+      }
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      .box-2 {
+        margin-top: 15%;
+      }
+      a,
+      i {
+        color: gray;
+      }
