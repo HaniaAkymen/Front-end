@@ -13,27 +13,34 @@
     body {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
+     html,
+     body,
     .gallery {
-        margin-top:5% ;
+        height: 100%;
+      }
+
+    .gallery {
+
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 20px;
-       
-       
+                    
     }
     figure {
         line-height: 0;
-        width: calc(100% / 4 - 60px / 4);
+        width: calc(100% / 4);
         aspect-ratio: 1;
      }
 
     img {
         width: 100%; 
         height: 100%;     
-        object-fit: cover;  
+        object-fit: cover;
+        width: 48px;
+        height: 48px;
     }
 
     </style>
