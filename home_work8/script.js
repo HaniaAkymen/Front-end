@@ -30,11 +30,11 @@ console.log(`У игрока ${player[2][0]} здоровье в игре ${play
 
 function find_arithmetic(numbers) {
     let sum5 = 0;     
-    for(let i = 0; i < numbers.lenght; i++){        
+    for(let i = 0; i < numbers.length; i++){        
         sum5 = sum5 + numbers[i];
     } 
     console.log(sum5)
-    sum5 = sum5 / numbers.lenght;
+    sum5 = sum5 / numbers.length;
     return sum5;
 }
 console.log(find_arithmetic([2, 6, 8, 10, 12])); 
