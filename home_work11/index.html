@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game: Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
-    <h1>Home work 9</h1>
+    <header>
+        <button onclick="start_game()" id="start">Start</button>
+    </header>
 
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolores officia facere. Labore inventore cupiditate optio necessitatibus velit nostrum repellendus omnis unde amet perferendis, alias in temporibus aliquam modi ipsam.</p>
-    
-<script src="script.js">
+    <div onmousedown="miss(event)" id="area">
+        <div onmousedown="hit()" id="object"></div>
+    </div>
 
-
-
-</script>
-
+        
+    <script src="script.js"></script>
 </body>
 </html>
